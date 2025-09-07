@@ -1,18 +1,19 @@
-import React from "react";
-import Header from "./Header";
+import { Header, Home } from "./Header";
+import Footer from "./Footer";
+import Content from "./Content";
 
-import { Footer } from "./Footer";
-import Content from "./content";
+
+
 function App() {
-    let css ={color:'blue'}
-    return (
-        <>
-            <Header/>
-            <h1 style={css}>hii{name}</h1>
-            <Content/>
-            <Footer/>
-        </>
-    )
+  return (
+    <>
+      <Header />
+      <Home />
+      <Content />
+    
+      <Footer/>
+    </>
+  );
 }
 
 export default App;

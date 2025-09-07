@@ -1,3 +1,34 @@
-.para{
-    color: rgb(240, 25, 61);
+.navbar-custom {
+  background-color: #4a148c; /* purple shade */
+}
+
+.navbar-custom .nav-link {
+  color: #fff !important;
+  font-weight: bold;
+  color: #4a148c;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffcc00 !important;
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image-container .content {
+  position: absolute;
+  top: 20px;   /* upar se distance */
+  left: 20px;  /* left se distance */
+  color: white;
+  background: rgba(0, 0, 0, 0.5); /* halka black transparent background */
+  padding: 10px;
+  border-radius: 5px;
 }
