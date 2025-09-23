@@ -1,21 +1,20 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Rhome from "./Rhome";
-
-
 
 function Home() {
   return (
     <>
-    <h1>home</h1>
-    
+      <h1>Home</h1>
     </>
   );
 }
 
 function About() {
-  return ( <>
-  <home/>
-  <h2>About Us Page</h2></>)
+  return (
+    <>
+      <h2>About Us Page</h2>
+    </>
+  );
 }
 
 function Contact() {
@@ -25,11 +24,16 @@ function Contact() {
 function App() {
   return (
     <Router>
-      <Rhome/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        {/* Layout route */}
+        <Route path="/" element={<Rhome />}>
+          {/* Nested routes will render inside <Outlet /> */}
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          {/* to show eeroe while give wrong path */}
+          <Route path="*" element={<h1> error </h1>} />
+        </Route>
       </Routes>
     </Router>
   );
