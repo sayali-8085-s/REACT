@@ -16,17 +16,13 @@ const App = () => {
 
 
     let handlesubmit =(e)=>{
-      if (name === "") {
+     
       e.preventDefault ()   //pervent reload form
      
-    }
+    
   }
       
-    if (name === "") {
-        Errname.innerHTML = "Please enter Name";
-        document.querySelector("#name").style.border="1px solid red";
-        return false;
-    }
+   
 
 
      
