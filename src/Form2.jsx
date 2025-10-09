@@ -94,7 +94,7 @@ const Form2 = () => {
     Enter number:<input type="text" name='num' value={formdata.num} onChange={changeinp}/> <br /> <br />
     
      Enter password:<input type="text" name='pass' value={formdata.pass} onChange={changeinp}/> <br /> <br />
-    <button type='submit'>Submit</button>
+    <button type='submit'>Sign</button>
     </form>
    </>
   )

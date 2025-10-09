@@ -1,0 +1,16 @@
+{
+    "hotel":[{
+        "name":"say",
+        "age":21,
+        "city":"bhopal",
+        "price":1000,
+        "person":5,
+        "total":5000
+
+    },{"name":"sam",
+        "age":21,
+        "city":"bhopal",
+        "price":1000,
+        "person":5,
+        "total":5000}]
+}

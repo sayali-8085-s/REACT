@@ -4,7 +4,7 @@ import Rhome from "./Rhome";
 function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <h1>Home hh</h1>
     </>
   );
 }
