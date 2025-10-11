@@ -19,22 +19,19 @@ const CRUD = () => {
 
 let del = (id)=>{
 
-
-   
-       
         axios.delete(`http://localhost:3000/hotel/${id}`).then(()=>{
 
             alert('delete');
+            // for page refresh
             setdata(Data.filter((e)=> e.id !== id))
 
         }).catch((err)=>{
             console.log(err);
 
         })
-        
-        
-    }
 
+    }
+// POST
 
 
 
