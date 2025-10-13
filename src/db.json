@@ -17,83 +17,6 @@
       "person": "2"
     },
     {
-      "id": "cd97",
-      "name": "sam",
-      "age": "21",
-      "city": "bankhedi",
-      "person": "2"
-    },
-    {
-      "id": "bd4e",
-      "name": "sam",
-      "age": "21",
-      "city": "bankhedi",
-      "person": "2"
-    },
-    {
-      "id": "8bca",
-      "name": "sam",
-      "age": "21",
-      "city": "bankhedi",
-      "person": "2"
-    },
-    {
-      "id": "908a",
-      "name": "sam",
-      "age": "21",
-      "city": "bankhedi",
-      "person": "2"
-    },
-    {
-      "id": "81f7",
-      "name": "sam",
-      "age": "21",
-      "city": "bankhedi",
-      "person": "2"
-    },
-    {
-      "id": "6e11",
-      "name": "sam",
-      "age": "21",
-      "city": "bankhedi",
-      "person": "2"
-    },
-    {
-      "id": "2af4",
-      "name": "sam",
-      "age": "21",
-      "city": "bankhedi",
-      "person": "2"
-    },
-    {
-      "id": "6810",
-      "name": "sam",
-      "age": "21",
-      "city": "bankhedi",
-      "person": "2"
-    },
-    {
-      "id": "5469",
-      "name": "sam",
-      "age": "21",
-      "city": "bankhedi",
-      "person": "2"
-    },
-    {
-      "id": "f6d9",
-      "name": "sam",
-      "age": "21",
-      "city": "bankhedi",
-      "person": "3"
-    },
-    {
-      "id": "169e",
-      "name": "sayali",
-      "age": "19",
-      "city": "bankhedi",
-      "person": "2"
-    },
-    {
       "id": "ab7a",
       "name": "sayali",
       "age": "19",
@@ -106,6 +29,14 @@
       "age": "19",
       "city": "rewa",
       "person": "1"
+    },
+    {
+      "name": "hh",
+      "age": "21",
+      "city": "rewa",
+      "person": "4",
+      "price": 5000,
+      "id": "6d42"
     }
   ]
 }

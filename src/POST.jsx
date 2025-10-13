@@ -13,7 +13,8 @@ const POST = () => {
 
     let handlesubmit = (e) => {
   e.preventDefault();
-  axios.post("http://localhost:3000/hotel", formdata)
+  axios.post("http://localhost:3000/hotel", {...formdata ,price:5000})
+  // ...fromdata for send price to each filed)
     .then(() => {
       alert('Booked successfully!');
       setformdata({ name: "", age: "", city: "", person: "" }); // reset form
